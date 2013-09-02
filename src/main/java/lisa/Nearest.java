@@ -8,8 +8,8 @@ package lisa;
  * To change this template use File | Settings | File Templates.
  */
 public class Nearest {
-	private static int count = 234;
-	private static double closeness = 1.23;
+	private static int count = 200;
+	private static double closeness = 1.0;
 	protected static Integer[] findClose(Vector vect){
 		Integer[] res = new Integer[100];
 		int min = 0;

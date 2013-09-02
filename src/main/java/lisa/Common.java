@@ -27,7 +27,7 @@ public class Common {
 	}
 
 	public synchronized static void createLog(String str){
-		try(FileWriter logs = new FileWriter("log.txt", true)){
+		try(FileWriter logs = new FileWriter("/home/java/log.txt", true)){
 			//log.txt
 			// /home/java/log.txt
 			logs.write("[" + new Date() + "]\n" + str + "\n\n");

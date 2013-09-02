@@ -19,12 +19,13 @@
     <file path="$PROJECT_DIR$/../Lisa/src/lisa/Dictionary.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1377722064925" ignored="false" />
     <file path="/Dictionary.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1377722063459" ignored="false" />
     <file path="$PROJECT_DIR$/../Lisa/logs.txt" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1377710128917" ignored="false" />
-    <file path="$PROJECT_DIR$/../Lisa/src/Main.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1378145861651" ignored="false" />
-    <file path="/Main.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1378144753781" ignored="false" />
+    <file path="$PROJECT_DIR$/../Lisa/src/Main.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1378151784158" ignored="false" />
+    <file path="/Main.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1378151772998" ignored="false" />
     <file path="$PROJECT_DIR$/../Lisa/src/lisa/Lemmer.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1377722121047" ignored="false" />
     <file path="$PROJECT_DIR$/../Lisa/src/lisa/UDC.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1378145406103" ignored="false" />
     <file path="/Vector.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1378141220838" ignored="false" />
     <file path="$PROJECT_DIR$/../Lisa/src/lisa/Vector.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1378141499441" ignored="false" />
+    <file path="$PROJECT_DIR$/../Lisa/src/lisa/Nearest.java" changelist="c779350a-2fa3-43ff-b817-15cedf322d44" time="1378150118750" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,16 +107,16 @@
       <file leaf-file-name="Lemmer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Lemmer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="1" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UDC.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UDC.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lisa/UDC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="24" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.5209003">
+            <state line="49" column="29" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,7 +134,16 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="34" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
+            <state line="18" column="10" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nearest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Nearest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="34" selection-start="221" selection-end="221" vertical-scroll-proportion="0.52469134">
               <folding />
             </state>
           </provider>
@@ -143,15 +153,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Article.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="52" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Common.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Common.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,14 +188,15 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/lisa/Keywords.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lisa/Common.java" />
         <option value="$PROJECT_DIR$/src/main/java/lisa/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/lisa/ExtractText.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/lisa/Vector.java" />
         <option value="$PROJECT_DIR$/src/main/java/lisa/SQLQuery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lisa/Lemmer.java" />
         <option value="$PROJECT_DIR$/src/main/java/lisa/UDC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lisa/Common.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lisa/Lemmer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lisa/Nearest.java" />
       </list>
     </option>
   </component>
@@ -616,7 +618,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -630,10 +632,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23863636" sideWeight="0.6331058" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15681818" sideWeight="0.6331058" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075758" sideWeight="0.6331058" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3668942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3668942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -718,13 +720,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lisa/ExtractText.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="20" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
@@ -760,20 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Keywords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="111" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="38" selection-start="3206" selection-end="3206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lisa/SQLQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="134" column="0" selection-start="3790" selection-end="3790" vertical-scroll-proportion="0.0">
@@ -788,16 +769,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Common.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/ExtractText.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+        <state line="74" column="5" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/ExtractText.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/UDC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="5" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.0">
+        <state line="49" column="29" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="9" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="38" selection-start="3206" selection-end="3206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Keywords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="111" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Lemmer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -809,23 +818,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Lemmer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="1" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="34" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
+        <state line="18" column="10" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/UDC.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lisa/Nearest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="24" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.5209003">
+        <state line="10" column="34" selection-start="221" selection-end="221" vertical-scroll-proportion="0.52469134">
           <folding />
         </state>
       </provider>

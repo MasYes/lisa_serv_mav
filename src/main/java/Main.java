@@ -16,7 +16,7 @@ import java.io.*;
  */
 public class Main {
 	public static void main(String[] args){
-		args = new String[]{"A:\\example4.pdf"};
+		//args = new String[]{"A:\\example4.pdf"};
 		String res;
 		Common.createLog(args[0] + "   обработка статьи\n");
 		long time = System.currentTimeMillis();

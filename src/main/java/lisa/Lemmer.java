@@ -12,15 +12,22 @@ import java.util.Scanner;
 
 public class Lemmer {
 
+	private static String mystem = "/home/mystem/mystem30";
+	private static String path_in = "/home/mystem/example.txt";
+	private static String path_out = "/home/mystem/example_out.txt";
+/*
+	private static String mystem = "A:\\mystem.exe";
+	private static String path_in = "A:\\example.txt";
+	private static String path_out = "A:\\example_out.txt";
+*/
 	public static String[] lemmer (String str){ // Возможно, не лучшее решение, но лучшего я еще не придумал
-		File file = new File("A:\\example.txt");
+		File file = new File(path_in);
 		try(FileWriter wr = new FileWriter(file)){
-			str = str.toLowerCase();
 			wr.write(str);
-			String command = "A:\\mystem.exe -w -e utf-8 -l -n A:\\example.txt A:\\example_out.txt";
+			String command = mystem + " -w -e utf-8 -l -n " + path_in + " " + path_out;
 			wr.close();
 			java.lang.Runtime.getRuntime().exec(command).waitFor();
-			Scanner in = new Scanner(new File("A:\\example_out.txt"));
+			Scanner in = new Scanner(new File(path_out));
 			String res = "";
 			String curr;
 			while(in.hasNext()){
