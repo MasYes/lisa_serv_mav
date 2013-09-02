@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="lisa_serv_mav:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/lisa_serv_mav_jar</output-path>
+    <root id="archive" name="lisa_serv_mav.jar">
+      <element id="module-output" name="lisa_serv_mav" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.26/mysql-connector-java-5.1.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lisa_serv/extrlib/iscwt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lisa_serv/extrlib/isrt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lisa_serv/extrlib/jPod.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lisa_serv/extrlib/mysql-connector-java-5.1.25-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

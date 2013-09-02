@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="iscwt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../lisa_serv/extrlib/iscwt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lisa_serv/extrlib/isrt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
