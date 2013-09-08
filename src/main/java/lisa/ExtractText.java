@@ -13,7 +13,7 @@
  * by MasYes: Практически всё - тупой копипаст экзампла из библиотеки, так что все претензии не ко мне ^^
  */
 package lisa;
-import java.io.IOException;
+import java.io.*;
 
 import de.intarsys.pdf.parser.COSLoadException;
 import de.intarsys.pdf.pd.PDDocument;
@@ -28,10 +28,10 @@ import de.intarsys.pdf.pd.PDPageTree;
 import de.intarsys.pdf.tools.kernel.PDFGeometryTools;
 
 import java.awt.geom.AffineTransform;
-import java.io.File;
 import java.util.Iterator;
-import java.util.Scanner;
-
+import org.apache.poi.hwpf.extractor.WordExtractor;
+import org.apache.poi.xwpf.extractor.XWPFWordExtractor;
+import org.apache.poi.xwpf.usermodel.*;
 
 /**
  * Extract complete text from document.
@@ -43,11 +43,35 @@ public class ExtractText{
 		switch(file.substring(file.lastIndexOf("."))){
 			case ".pdf" :	return parsePDF(file);
 			case ".txt" :	return parseTXT(file);
+			case ".doc" :	return parseDOC(file);
+			case ".docx" :	return parseDOCX(file);
 			default : throw new UnsupportedFormatException();
 		}
 	}
 
-	public static String parsePDF(String file) {
+	private static String parseDOC(String file) {
+		try{
+			BufferedInputStream isr = new BufferedInputStream(new FileInputStream(file));
+			WordExtractor word = new WordExtractor(isr);
+			return word.getText();
+		} catch (Exception e) {
+			Common.createLog(e);
+			return "";
+		}
+	}
+
+	private static String parseDOCX(String file) {
+		try{
+			BufferedInputStream isr = new BufferedInputStream(new FileInputStream(file));
+			XWPFWordExtractor word = new XWPFWordExtractor(new XWPFDocument(isr));
+			return word.getText();
+		} catch (Exception e) {
+			Common.createLog(e);
+			return "";
+		}
+	}
+
+	private static String parsePDF(String file) {
 		ExtractText client = new ExtractText();
 		try {
 			return client.run(file);
@@ -57,14 +81,24 @@ public class ExtractText{
 		}
 	}
 
-	public static String parseTXT(String file) {
+	private static String parseTXT(String file) {
 		File text = new File(file);
 		try{
 			System.gc();
-			Scanner scan = new Scanner(text);
 			String str = "";
-			while(scan.hasNext()){
-				str += scan.nextLine() + "\n";
+			InputStreamReader isr = new InputStreamReader(new FileInputStream(file), "utf-8");
+			BufferedReader reader;
+			reader = new BufferedReader(isr);
+			for (String line; (line = reader.readLine()) != null;) {
+				str+= line + "\n";
+			}
+			if(!str.contains("�"))
+				return str;
+			str = "";
+			isr = new InputStreamReader(new FileInputStream(file), "Windows-1251");
+			reader = new BufferedReader(isr);
+			for (String line; (line = reader.readLine()) != null;) {
+				str+= line + "\n";
 			}
 			return str;
 		}

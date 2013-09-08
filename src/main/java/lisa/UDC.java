@@ -20,7 +20,7 @@ public class UDC {
 
 
 
-	private UDC(){
+	protected UDC(){
 		id = "";
 		description = "";
 		parent = "";

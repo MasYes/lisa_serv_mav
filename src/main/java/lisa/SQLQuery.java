@@ -238,7 +238,9 @@ public class SQLQuery {
 			return new UDC(rs.getString("id"), rs.getString("description"),
 					rs.getString("parent"),rs.getString("children"));
 		} catch (SQLException e){
-			return null;
+			if(!code.equals(""))
+				Common.createLog(e);
+			return new UDC();
 		}
 	}
 
